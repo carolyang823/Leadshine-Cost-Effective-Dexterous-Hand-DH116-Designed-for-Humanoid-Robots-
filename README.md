@@ -1,2 +1,51 @@
-# Leadshine-Cost-Effective-Dexterous-Hand-DH116-Designed-for-Humanoid-Robots-
-Leadshine self designed and produced desterous hand DH116, with 6 active DOF and 5 passive DOF, support high-speed communication, powerful collaborative capabilities, strong load capacity and powerful perception capability. Widely used for humanoid robots, mobile robots, quadruped robots, collaborative robots etc.
+# LHandPro Deployment Kit
+
+## 文件夹结构说明
+
+- **Documentation/**  
+  产品相关文档，包括协议说明、SDK功能手册、上位机和ROS2示例工程说明等。
+
+- **ROS2/**  
+  ROS2相关资源，包括示例工程源码（example/）和机械手URDF模型文件（urdf/）。
+
+- **SDK/**  
+  灵巧手SDK库，包含Linux和Windows平台的API压缩包。
+
+- **Software/**  
+  上位机软件安装包，版本号和发布日期见文件名。
+
+- **STP/**  
+  机械手三维模型及工程图纸（DXF格式）。
+
+- **XML/**  
+  设备参数及配置文件（LSLQ_DH116.xml），用于协议解析和设备初始化。
+
+## 版本更新说明
+
+- **v1.1.4**
+ - 增加DH116S小手适配
+ - 新增CANFD通讯协议适配
+ - 优化部分已知bug
+
+- **v1.1.3**
+ - 更新LOGO显示效果
+ - 更新电流单位为千分比
+ - 增加预置手势界面
+ - 增加手套联动功能
+ - 更新中英文说明文档
+ - 修复部分已知bug
+
+- **v1.1.2 (2025-09-28)**
+  - 增加力矩到位控制模式的接口
+  - 修复SDK中速度异常的问题
+  - 丰富上位机使用功能
+  - 同步更新说明文档及协议
+
+- **v1.1.1 (2025-09-28)**
+  - 新增ROS2示例工程说明文档
+  - SDK API更新至最新版本，支持更多平台
+  - 上位机软件优化界面及稳定性
+  - XML配置文件增加更多参数项
+  - STP文件补充最新机械手结构图
+
+如需详细使用方法，请参考 `Documentation` 文件夹内相关说明书。
